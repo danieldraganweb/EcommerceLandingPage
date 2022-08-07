@@ -1,7 +1,8 @@
-.main {
+.first {
   display: flex;
-  margin: right 10px;
   justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
 }
 .navbar {
   width: 400px;
@@ -13,6 +14,16 @@
   height: 30px;
   background-color: #fd8b08;
 }
-.home {
-  color: aqua;
+.home,
+.shop,
+.aboutus,
+.cart {
+  display: flex;
+  background-color: bisque;
+  border-radius: 7px;
+  padding: 8px;
+  text-decoration: none;
+  color: palevioletred;
+  border: 1px solid black;
+  margin-left: 10px;
 }
