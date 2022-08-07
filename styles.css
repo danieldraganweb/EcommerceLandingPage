@@ -1,5 +1,18 @@
-.navbar{
-    width: 400px;
-            
-    display: flex;
+.main {
+  display: flex;
+  margin: right 10px;
+  justify-content: left;
+}
+.navbar {
+  width: 400px;
+  display: flex;
+  justify-content: right;
+}
+.logo {
+  width: 70px;
+  height: 30px;
+  background-color: #fd8b08;
+}
+.home {
+  color: aqua;
 }
