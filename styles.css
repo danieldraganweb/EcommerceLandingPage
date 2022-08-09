@@ -3,20 +3,20 @@
   justify-content: space-between;
   border: 1px solid black;
   padding: 20px;
-
   background: #ffffff;
 }
 .navbar {
-  width: 40px;
+  width: 500px;
+  height: 40px;
   display: flex;
   justify-content: right;
 }
 .logo {
   width: 30px;
   height: 30px;
-  position: relative;
   width: 1512px;
   height: 982px;
+  justify-content: center;
 }
 .home,
 .shop,
