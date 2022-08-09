@@ -23,7 +23,7 @@
 .shop,
 .aboutus,
 .cart {
-  width: 80px;
+  width: 180px;
   display: flex;
   justify-content: space-around;
   background-color: rgb(76, 87, 76);
@@ -39,5 +39,9 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  height: 50px;
+  border-radius: 50px;
   width: 400px;
+  display: flex;
+  float: right;
 }
