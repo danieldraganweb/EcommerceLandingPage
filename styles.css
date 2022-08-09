@@ -3,6 +3,8 @@
   justify-content: space-between;
   border: 1px solid black;
   padding: 20px;
+
+  background: #ffffff;
 }
 .navbar {
   width: 400px;
@@ -12,18 +14,21 @@
 .logo {
   width: 70px;
   height: 30px;
-  background-color: #fd8b08;
+  position: relative;
+  width: 1512px;
+  height: 982px;
 }
 .home,
 .shop,
 .aboutus,
 .cart {
   display: flex;
-  background-color: bisque;
+  justify-content: space-around;
+  background-color: rgb(0, 179, 0);
   border-radius: 7px;
   padding: 8px;
   text-decoration: none;
-  color: palevioletred;
+  color: rgb(223, 215, 218);
   border: 1px solid black;
   margin-left: 10px;
 }
