@@ -7,12 +7,12 @@
   background: #ffffff;
 }
 .navbar {
-  width: 400px;
+  width: 40px;
   display: flex;
   justify-content: right;
 }
 .logo {
-  width: 70px;
+  width: 30px;
   height: 30px;
   position: relative;
   width: 1512px;
