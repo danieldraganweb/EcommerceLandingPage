@@ -4,7 +4,7 @@
   border: 1px solid black;
   padding: 20px;
   background: #6d916f;
-  width: 100%;
+  width: 98%;
 }
 .navbar {
   width: 500px;
@@ -35,13 +35,22 @@
   margin-left: 10px;
 }
 .search-bar {
-  width: 400px;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
+}
+
+.search-button {
   height: 50px;
-  border-radius: 50px;
-  width: 400px;
+  width: 150;
+  border-radius: 40px;
   display: flex;
-  float: right;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+.input-bar {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
 }
