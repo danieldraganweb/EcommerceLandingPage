@@ -1,23 +1,16 @@
-.first {
+.main {
+  background-color: rgb(14, 55, 14);
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
-  border: 1px solid black;
-  padding: 20px;
-  background: #6d916f;
-  width: 98%;
+  flex-direction: row;
 }
 .navbar {
   width: 500px;
   height: 40px;
   display: flex;
-  justify-content: right;
-}
-.logo {
-  width: 30px;
-  height: 30px;
-  width: 1512px;
-  height: 982px;
-  justify-content: center;
+  justify-content: left;
+  align-items: flex-end;
 }
 .home,
 .shop,
@@ -26,31 +19,12 @@
   width: 180px;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(76, 87, 76);
+  align-content: flex-end;
+  background-color: rgb(5, 42, 5);
   border-radius: 20px;
-  padding: 7px;
+  padding: 20px;
   text-decoration: none;
   color: rgb(223, 215, 218);
   border: 1px solid black;
   margin-left: 10px;
-}
-.search-bar {
-}
-
-.search-button {
-  height: 50px;
-  width: 150;
-  border-radius: 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-  font-weight: bolder;
-  font-size: larger;
-}
-.input-bar {
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
 }
